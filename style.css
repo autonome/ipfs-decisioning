@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #373fff;
+}
+
+h3 {
+  margin: 0.5rem;
+  margin-left: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  flex: 2 0%;
+  padding-top: 0;
+  columns: 3 18rem;
+}
+
+.report {
+  flex: 1 0%;
+  background-color: pink;
+  display: inline-block;
+  border-radius: 3px;
+  padding-top: 0.5rem;
+}
+
+.reportmarkdown {
+  flex: 1 0%;
+  background-color: pink;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+.category {
+  margin: 0.5rem;
+  margin-top: 0;
+  padding: 0.5rem;
+  background-color: cyan;
+  display: inline-block;
+  flex: 1;
+  border-radius: 3px;
+}
+
+.question {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-right: 0.5rem;
+}
+
+.reportcategory {
+  margin: 0.5rem;
+  margin-top: 0;
+  padding: 0.5rem;
+  background-color: cyan;
+  display: inline-block;
+  flex: 1;
+  border-radius: 3px;
+}
+
+.report ul {
+  margin: 0.2rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.2rem;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+.green::before {
+  content: "✅ ";
+}
+
+.yellow::before {
+  content: "⚠️ ";
+}
+
+.red::before {
+  content: "🚫 ";
+}
